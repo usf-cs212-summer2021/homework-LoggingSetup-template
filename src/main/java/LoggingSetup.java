@@ -7,10 +7,9 @@ import org.apache.logging.log4j.Logger;
  *
  * @author CS 212 Software Development
  * @author University of San Francisco
- * @version Spring 2021
+ * @version Summer 2021
  */
 public class LoggingSetup {
-	
 	// TODO See the README file for what to do for this homework
 
 	/**
@@ -40,5 +39,4 @@ public class LoggingSetup {
 		System.out.println("CLASS LOGGER:");
 		outputMessages(LogManager.getLogger());
 	}
-
 }

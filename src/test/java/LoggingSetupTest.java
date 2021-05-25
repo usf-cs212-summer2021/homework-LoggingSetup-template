@@ -29,11 +29,10 @@ import org.junit.jupiter.params.provider.CsvSource;
  *
  * @author CS 212 Software Development
  * @author University of San Francisco
- * @version Spring 2021
+ * @version Summer 2021
  */
 @TestMethodOrder(MethodName.class)
 public class LoggingSetupTest {
-
 	/** Used to capture console output. */
 	private static ByteArrayOutputStream capture = null;
 

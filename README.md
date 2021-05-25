@@ -15,13 +15,13 @@ Only output the message and **short** error message (if appropriate) to the cons
 
 ```
 ROOT LOGGER:
-wren 
+wren
 ERROR eagle
 Catching finch
 
 CLASS LOGGER:
-ibis 
-wren 
+ibis
+wren
 ERROR eagle
 Catching finch
 ```
@@ -29,10 +29,10 @@ Catching finch
 Include the sequence number, level (using only 3 letters), file, line number, thread name, 3 lines from any throwable stack trace (if appropriate), and a newline character (`%n`) in the `debug.log` file. See the `test/resources/debug.log` file for the expected file output. It is also included below:
 
 ```
-[001 trace] LoggingSetup.java:20 main: toucan 
-[002 debug] LoggingSetup.java:21 main: dove 
-[003 info] LoggingSetup.java:22 main: ibis 
-[004 warn] LoggingSetup.java:23 main: wren 
+[001 trace] LoggingSetup.java:20 main: toucan
+[002 debug] LoggingSetup.java:21 main: dove
+[003 info] LoggingSetup.java:22 main: ibis
+[004 warn] LoggingSetup.java:23 main: wren
 [005 error] LoggingSetup.java:24 main: ERROR java.lang.Exception: eagle
 	at LoggingSetup.outputMessages(LoggingSetup.java:24)
 	at LoggingSetup.main(LoggingSetup.java:39)
@@ -47,7 +47,7 @@ You should **NOT** modify the `LoggingSetup.java`, `LoggingSetupTest.java`, or `
 
 Below are some hints that may help with this homework assignment:
 
-  - The `log4j2.xml` file in the [lecture examples](https://github.com/usf-cs212-spring2021/lectures/blob/main/Debugging/src/main/resources/log4j2.xml) is a good starting point.
+  - The `log4j2.xml` file in the [lecture examples](https://github.com/usf-cs212-summer2021/lectures/blob/main/Debugging/src/main/resources/log4j2.xml) is a good starting point.
 
   - For configuring the output locations (where to output, file versus console), take a look at the [ConsoleAppender](https://logging.apache.org/log4j/2.x/manual/appenders.html#ConsoleAppender) and [FileAppender](https://logging.apache.org/log4j/2.x/manual/appenders.html#FileAppender) information pages.
 
@@ -56,9 +56,3 @@ Below are some hints that may help with this homework assignment:
   - **Do NOT overwrite the `test/debug.log` file. You should configure log4j2 to write to the path `debug.log` instead.**
 
 These hints are *optional*. There may be multiple approaches to solving this homework.
-
-## Requirements ##
-
-See the Javadoc and `TODO` comments in the template code in the `src/main/java` directory for additional details. You must pass the tests provided in the `src/test/java` directory. Do not modify any of the files in the `src/test` directory.
-
-See the [Homework Guides](https://usf-cs212-spring2021.github.io/guides/homework/) for additional details on homework requirements and submission.
