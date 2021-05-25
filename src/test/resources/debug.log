@@ -1,10 +1,10 @@
-[001 trace] LoggingSetup.java:22 main: toucan 
-[002 debug] LoggingSetup.java:23 main: dove 
-[003 info] LoggingSetup.java:24 main: ibis 
-[004 warn] LoggingSetup.java:25 main: wren 
-[005 error] LoggingSetup.java:26 main: ERROR java.lang.Exception: eagle
+[001 trace] LoggingSetup.java:21 main: toucan
+[002 debug] LoggingSetup.java:22 main: dove
+[003 info] LoggingSetup.java:23 main: ibis
+[004 warn] LoggingSetup.java:24 main: wren
+[005 error] LoggingSetup.java:25 main: ERROR java.lang.Exception: eagle
+	at LoggingSetup.outputMessages(LoggingSetup.java:25)
+	at LoggingSetup.main(LoggingSetup.java:40)
+[006 fatal] LoggingSetup.java:26 main: Catching java.lang.RuntimeException: finch
 	at LoggingSetup.outputMessages(LoggingSetup.java:26)
-	at LoggingSetup.main(LoggingSetup.java:41)
-[006 fatal] LoggingSetup.java:27 main: Catching java.lang.RuntimeException: finch
-	at LoggingSetup.outputMessages(LoggingSetup.java:27)
-	at LoggingSetup.main(LoggingSetup.java:41)
+	at LoggingSetup.main(LoggingSetup.java:40)
